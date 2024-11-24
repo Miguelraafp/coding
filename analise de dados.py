@@ -27,3 +27,5 @@ tabela_lojas = tabela_lojas[['Faturamento']]
 
 grafico = px.bar(tabela_lojas.reset_index(), x='Loja', y='Faturamento')
 grafico.show()
+
+
